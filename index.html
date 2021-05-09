@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Beds Archive | Atlantic Furniture</title>
+    <link rel="stylesheet" href="css/style.css?<?php echo date('Y-m-d H:i:s'); ?>">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="container">
+                <div class="navbar-left">
+                    <div class="navbar-brand">
+                        <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a href="#">All Products</a>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <input type="search" name="keyword" id="keyword-product">
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="container" id="product-container">
+
+        </div>
+        <div class="container d-flex justify-content-end pt-5" id="pagination">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                <li class="page-item" data="prev">
+                    <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item" data="next">
+                    <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                <li>
+                        <p class="ml-2 mt-2"><span id="cur_page"></span> page of <span id="total_page"></span> pages</p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</html>
